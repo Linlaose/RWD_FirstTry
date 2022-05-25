@@ -199,11 +199,13 @@ nav{
   list-style: none;
   display: flex;
   margin: 0 14px 0 0;
+  width: 39%;
 }
 
 .nav-item{
   display: flex;
-  padding: 16.5px 8px 0 8px;
+  margin: 16.5px 8px 0 8px;
+  width: auto;
 }
 
 .nav-item span{
@@ -259,4 +261,44 @@ nav{
 
 .jquery-item span::before{
   content: "．";
+}
+
+/* Screen size 768 */
+@media(max-width:990px){
+  .header{
+    display: block;
+    width: 100%;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    margin: 0;
+  }
+  .nav-item{
+    display: flex;
+    justify-content: center;
+    width: 48%;
+  }
+  .content-list{
+    flex-wrap: wrap;
+  }
+  .content-item{
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px){
+  .content-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-item{
+    width: 100%;
+  }
 }
