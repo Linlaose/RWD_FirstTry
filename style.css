@@ -199,7 +199,6 @@ nav{
   list-style: none;
   display: flex;
   margin: 0 14px 0 0;
-  width: 39%;
 }
 
 .nav-item{
@@ -277,7 +276,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 98%;
     margin: 0;
   }
   .nav-item{
