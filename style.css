@@ -264,7 +264,7 @@ nav{
   content: "．";
 }
 
-/* Screen size 768 */
+/* Screen size 990 */
 @media(max-width:990px){
   .header{
     display: block;
@@ -275,13 +275,11 @@ nav{
     justify-content: center;
   }
   .nav-list{
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
   }
   .nav-item{
-    display: flex;
     justify-content: center;
     width: 48%;
   }
@@ -293,6 +291,7 @@ nav{
   }
 }
 
+/* Screen size 768 */
 @media (max-width: 768px){
   .content-list{
     display: flex;
