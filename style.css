@@ -214,6 +214,8 @@ nav{
 
 .nav-item a{
   text-decoration: none;
+  border-bottom: 3px solid transparent;
+  /* 將 border-bottom 使用 transparent 的手法清除 hover 浮動 */
 }
 
 .nav-item a:hover{
